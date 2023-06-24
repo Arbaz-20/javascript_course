@@ -58,3 +58,11 @@ console.log("this division is :" ,saniya_divide);
 let remainder = 12 % 12
 console.log("this remainder is :" ,remainder);
 
+// define object
+
+let saniyafarooqui = {
+    firstname:"saniya",
+    lastname:"farooqui"
+}
+
+console.log(saniyafarooqui);
