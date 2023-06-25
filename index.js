@@ -69,10 +69,9 @@ console.log(saniyafarooqui);
 
 //define array
 
-let saniyafarooqui786 = {
-    firstname:"saniya",
-    middlename:"anisuddin",
-    lastname:"farooqui"
-}
+let saniyafarooqui786 = [
+ name = saniya,sofiya,alfiya
+]
+
 
 console.log(saniyafarooqui786);
