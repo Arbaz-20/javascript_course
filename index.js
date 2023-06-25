@@ -116,3 +116,39 @@ let r = 6
  let e = 5
 
  e == 5 ? console.log("ALFIYA") : e == 12 ? console.log("Sufiya") : console.log("SANIYA")
+
+
+ //if operator on and condition ( && )
+
+ let k = 1 , q = 1  // multiple variable decleration
+
+ if(k == 1 && q == 2 ){ // both the condition should be satisfied for && operator if not then else part will be executes
+    console.log("Saniya is good girl");
+ }else{
+    console.log("Saniya is bad girl");
+ }
+
+ //if operator on or condition (||)
+
+ let a = 11 ,b = 25
+
+ if(a == 11 || b == 23){ // atleast one condition should be satisfied for || operator 
+    console.log("true");
+ }else{ 
+    console.log("false");
+ }
+
+ //if operator for not condition 
+ let we = null
+ 
+ if(we != 23){
+    console.log("saniya not operator");
+ }else{
+    console.log("sufiya not operator");
+ }
+
+ if(we){
+    console.log("sufiya");
+ }else{
+    console.log("alfiya");
+ }
