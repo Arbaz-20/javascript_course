@@ -159,6 +159,6 @@ if(have == 9152){
     console.log("saniya have started learning javascript");
 }else{
     console.log("she don't even started learning");
-}
+} 
 
 
