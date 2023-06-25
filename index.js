@@ -65,13 +65,54 @@ let saniyafarooqui = {
     lastname:"farooqui"
 }
 
-console.log(saniyafarooqui);
+console.log("this is an objecr : " ,saniyafarooqui);
 
 //define array
 
-let saniyafarooqui786 = [
- name = saniya,sofiya,alfiya
-]
+let saniyafarooqui786 = ["saniya","sofiya",12,true]
 
 
-console.log(saniyafarooqui786);
+console.log("this is an array : " ,saniyafarooqui786);
+
+//conditional operator
+
+//if condition
+let x = 5
+if(x == 5){
+    console.log("This is if condition value : ","Saniya");
+}
+
+//if else operator
+let y = 6
+
+if(y == 5){
+    console.log("this is if else condition value : ","Saniya");
+}else{
+    console.log("this is if else condition value : ","Sufiya");
+}
+
+// if else if else condition operator
+
+let z = 7
+
+if(z == 4){
+    console.log("THis is the if else if else condition value : ","Alfiya");
+}else if(z == 5){
+    console.log("THis is the if else if else condition value : ","Sufiya");
+}else if(z == 7){
+    console.log("THis is the if else if else condition value : ","Anis");
+}else if(z == 2){
+    console.log("THis is the if else if else condition value : ","raisa banu");
+}else{
+    console.log("THis is the if else if else condition value : ","Saniya");
+}
+
+// ternary operator (one line if else)
+let r = 6
+
+ r==5 ? console.log("This is saniya"):console.log("this is sufiya")
+
+ //ternary operator (one line if else if else)
+ let e = 5
+
+ e == 5 ? console.log("ALFIYA") : e == 12 ? console.log("Sufiya") : console.log("SANIYA")
