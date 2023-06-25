@@ -152,3 +152,13 @@ let r = 6
  }else{
     console.log("alfiya");
  }
+
+ let have = 9152
+
+if(have == 9152){
+    console.log("saniya have started learning javascript");
+}else{
+    console.log("she don't even started learning");
+}
+
+
