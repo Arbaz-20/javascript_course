@@ -161,4 +161,27 @@ if(have == 9152){
     console.log("she don't even started learning");
 } 
 
+let i = 99 , j = 90
+
+if(i == 99 && j == 789){
+    console.log("saniya farooqui");
+}else{console.log("sofiya farooqui");
+}
+
+let l = 788 , m = 800
+
+if (l == 789 || m == 800){
+    console.log("arbaz");
+}else{
+    console.log("nahil");
+}
+
+let n = 17
+
+if(n != 20){
+    console.log("it works");
+}else{
+    console.log("it doesnot work");
+}
+
 
