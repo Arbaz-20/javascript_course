@@ -153,5 +153,105 @@ let r = 6
     console.log("alfiya");
  }
 
- //i am pushing code to saniya branch
- 
+ let have = 9152
+
+if(have == 9152){
+    console.log("saniya have started learning javascript");
+}else{
+    console.log("she don't even started learning");
+} 
+
+let i = 99 , j = 90
+
+if(i == 99 && j == 789){
+    console.log("saniya farooqui");
+}else{console.log("sofiya farooqui");
+}
+
+let l = "farooqui" , m = 800
+
+if (l == "farooqui" || m == 800){
+    console.log("arbaz");
+}else{
+    console.log("nahil");
+}
+
+let n = 17
+
+if(n != 20){
+    console.log("it works");
+}else{
+    console.log("it doesnot work");
+}
+
+
+//comparison operartor
+// the value of any variable or object or any array any thing which is getting compare is called comparision operator
+let arbaz1 = 10
+
+//greater than
+if(arbaz1 > 10){
+    console.log("yes he is greater");
+}else{
+    console.log("No not greater");
+}
+
+//less than
+if(arbaz1 < 10){
+    console.log("less");
+}else{
+    console.log("more");
+}
+
+//greater then equal to
+if(arbaz1 >= 10){
+    console.log("yes greater than equal to");
+}else{
+    console.log("No greater than equal to");
+}
+
+//less than equal to
+if(arbaz <= 9){
+    console.log("arbaz is less");
+}else{
+    console.log("arbaz is greater");
+}
+
+// === triple equal to 
+if(arbaz1 === 10){
+    console.log("yes it is");
+}else{
+    console.log("no it is");
+}
+
+let t = typeof(arbaz1)
+console.log(t);
+
+
+//switch case 
+// switch (key) {
+//     case value:
+        
+//         break;
+
+//     default:
+//         break;
+// }
+
+//functions in javascript
+function saniya_farooqui(value_1, value_2,value3,value_4){
+    //console.log("This is the addition of new number : ",value_1+value_2);
+    let add = value_1 + value_2 + value3 + value_4
+    return add;
+}
+let addition = saniya_farooqui(1,12,12,12);
+console.log("the addition is : ",addition);
+
+//arrow function
+
+arbazfunction = (value12,value13,value14,value15) => {
+    let subtract = value12 - value13 - value15 - value14
+    return subtract;
+}
+let sub = arbazfunction(78,1,9,2)
+console.log("the subtract is : ",sub);
