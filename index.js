@@ -255,3 +255,20 @@ arbazfunction = (value12,value13,value14,value15) => {
 }
 let sub = arbazfunction(78,1,9,2)
 console.log("the subtract is : ",sub);
+
+//switch case 
+
+let s = 33;
+
+switch(s){
+    case 20:
+        s = "twenty"
+        break;
+    case 33:
+        s = "farooqui"
+        break;
+    default:
+        s = "not found"
+        break;
+}
+console.log("the value is ${s}"); 
