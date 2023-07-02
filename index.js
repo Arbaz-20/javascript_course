@@ -70,8 +70,6 @@ console.log("this is an objecr : " ,saniyafarooqui);
 //define array
 
 let saniyafarooqui786 = ["saniya","sofiya",12,true]
-
-
 console.log("this is an array : " ,saniyafarooqui786);
 
 //conditional operator
@@ -271,4 +269,106 @@ switch(s){
         s = "not found"
         break;
 }
-console.log("the value is ${s}"); 
+console.log(`the value is Saniya ${s}`); 
+
+function add(p1 ,p2, p3){
+    return p1+p2+p3;
+}
+let saba = add(1,2,7)
+console.log(`the addition is ${saba}`);
+
+// sub = (p1,p2,p3)=> {
+//     return p1 - p2 - p3;
+// }
+// let sadaf = sub("arbaz",10,5)
+// console.log(`the subraction is ${sadaf}`);
+addition = (a,b,c) => {
+    try {
+        let add = a + b + c
+        throw Error;
+        //console.log("This is the error :",add);
+        return add;
+    } catch (error) {
+        console.log("this is the error",error.message);
+    }
+}
+
+let addition_num = addition(undefined,2,3);
+console.log(addition_num);
+
+
+//loops is define as a feature used to execute a particular part of the program repeatedly if a given condition evalutes to be true.
+
+// there are two loops
+//1 while loop this is for loops through a block of code as long as a specified condition is true.
+
+//while(condition) {
+    //code block to be executed
+//}
+
+//2 for loop is for that how many time you want to loop through a block of code.
+
+//for(statement1; statement2; statement3){
+    // code block to be executed
+//}
+
+//let try function 
+function alfiyamethod(p1,p2){
+    return p1+p2
+}
+let alfi = alfiyamethod(89,90);
+console.log(alfi);
+
+const sofiyamethod = (p1,p2) =>{
+    return p1 - p2
+}
+let saima = sofiyamethod(90,60)
+console.log(saima);
+
+// for loop 
+for( let i = 0; i <= 10 ; i++){
+    console.log(i);
+}
+
+arbazarray = ["arbaz","saniya","alfiya","sufiya"]
+console.log(arbazarray.length);
+for(let i = 0; i < arbazarray.length;i++){
+    console.log(arbazarray[i]);
+}
+
+//while loop
+let arbazkhan1 = 0
+let text = ""
+while(arbazkhan1 < 10){
+    text = "The text number is " + arbazkhan1;
+    console.log(text);
+    arbazkhan1++;
+}
+console.log("----------------------------------------------");
+
+//do while loop
+let arbazkhan2 = 0;
+do{
+    text = "the saniya number is :"+arbazkhan2;
+    arbazkhan2++
+    console.log(text)
+}while(arbazkhan2 < 10);
+
+//loops by saniya 
+for (let g = 0; g < 10; g++){
+    console.log(g);
+}
+
+let d=0;
+while (d < 10){
+    console.log(`this is while loop ${d}`);
+    d++
+}
+
+//for of loop
+
+arbazarray2 = ["arbaz","saniya","sufiya","alfiya","alam","imran","ariba","nazneen","asif","ayesha"]
+//console.log(arbazarray2.indexOf("arbaz"));
+for(let response of arbazarray2){
+    console.log(arbazarray2.indexOf(response)+" : "+response);
+}
