@@ -372,3 +372,33 @@ arbazarray2 = ["arbaz","saniya","sufiya","alfiya","alam","imran","ariba","naznee
 for(let response of arbazarray2){
     console.log(arbazarray2.indexOf(response)+" : "+response);
 }
+
+//for loop practice
+
+for ( r = 0; r < 20; r++){
+    console.log(r);
+}
+
+//while loop practice
+
+let c = 0;
+
+while (c < 20){
+    c++
+    console.log(`the number is ${c}`);
+}
+
+// do while loop practice
+
+let h = 0;
+do{
+    h++
+    console.log("the number of do while is :" +h);
+}while(h < 20);
+
+//for of practice
+
+saniyaarray = ['saniya','rifat','ishrat','aamna','sofiya','alfiya','asad','ahad','shifa','raisa']
+for(let response of saniyaarray){
+    console.log(saniyaarray.indexOf(response)+" : "+response);
+}
