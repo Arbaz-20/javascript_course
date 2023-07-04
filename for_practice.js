@@ -39,3 +39,19 @@ let saniya = {
 for(let response in saniya){
     console.log(`${response}` + " : " + `${saniya[response]}`);
 }
+
+// function practice
+
+function add(p1,p2,p3,p4){
+    return p1 + p2 + p3 + p4;
+}
+let sana = add(90,80,77,67)
+console.log(sana);
+
+console.log("........................");
+
+addition = (p1,p2,p3) => {
+    return p1 + p2 + p3; 
+}
+let sofiya =addition(10,87,64)
+console.log(sofiya);
