@@ -63,3 +63,5 @@ let arbaz = {
 for(let response in arbaz){
     console.log(`${response}`+" : "+`${arbaz[response]}`);
 }
+
+
