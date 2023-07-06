@@ -12,7 +12,7 @@ sofiya*/
 //to define variable we use anyone of the following
 //let   to define a variable whose value can be change
 //const  to define a variable whose value can't be change
-//var   to define variable
+//var   to define variable 
 
 //let saniya = 10
 //saniya = 20
@@ -402,3 +402,110 @@ saniyaarray = ['saniya','rifat','ishrat','aamna','sofiya','alfiya','asad','ahad'
 for(let response of saniyaarray){
     console.log(saniyaarray.indexOf(response)+" : "+response);
 }
+
+let hamza = 900;
+if(hamza == 800){
+    console.log(`hamza`);
+}else if (hamza== 900){
+    console.log("sofiya");
+}else {
+    console.log("alfiya");
+}
+
+if(hamza > 700){
+    console.log("yes");
+}else {
+    console.log("no");
+}
+
+if(hamza < 700){
+    console.log("yes");
+}else{
+    console.log("no");
+}
+
+if (hamza >= 900){
+    console.log("yes this is right");
+}else{
+    console.log("no this is wrong");
+}
+
+if(hamza <= 800){
+    console.log("its okay");
+}else{
+    console.log("u r also wrong");
+}
+
+let sofiyaarray = ["saniya","sofiya","alfiya","raisa","anis","hakim","islam"];
+
+for(let response of sofiyaarray){
+    console.log(sofiyaarray.indexOf(response) + ":"+ response );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
