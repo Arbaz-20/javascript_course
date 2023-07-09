@@ -1,3 +1,6 @@
+//define array
+//an array is a special variable, which can hold more than one value:
+
 let array = ["arbaz","saniya","alfiya","sofiya","nazreen","nasreen","raza","ayush","asif"];
 let size = array.length;
 console.log(size);
