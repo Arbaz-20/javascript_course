@@ -38,3 +38,22 @@ let flat = [[1,2],[3,4],[5,6]]
 
 let flatarray = flat.flat()
 console.log(flatarray);
+
+
+let maparray = ["arbaz","saniya","alfiya","sufiya"]
+let emptyarray = []
+maparray.map((element)=>{
+    emptyarray.push(element);
+});
+console.log("This is the empty array",emptyarray);
+
+let numberarray = [1,2,3,4,5,6,7,8,9]
+
+let answer = numberarray.map(element => element + 30);
+console.log(answer);
+
+let data = maparray.filter(element => element == "arbaz")
+console.log(data);
+
+let number = [1,2,3,4,5,6,7,8,9,10]
+let alphabet = ["a","b","c","d","e","f","g","h","i","j"]
