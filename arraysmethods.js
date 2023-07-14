@@ -57,3 +57,54 @@ console.log(data);
 
 let number = [1,2,3,4,5,6,7,8,9,10]
 let alphabet = ["a","b","c","d","e","f","g","h","i","j"]
+descend = number.sort((a,b)=> a > b ? 1 : -1);
+console.log(descend);
+
+ascend = alphabet.sort((a,b) => a > b ? -1 : 1);
+console.log(ascend);
+
+let arrays = [1,2,3,4]
+arrays.forEach((element) => {
+    console.log(element);
+});
+
+
+let note = ["saniya","alfiya","sofiya"]
+let book = ["raisa","anis"]
+let notebook = book.concat(note)
+console.log(notebook);
+
+let arr = [1,2,3,4,5,6,7,8,9]
+
+let greater = arr.every((num) => num >= 1)
+console.log("this is greater every" ,greater);
+
+let lesser = arr.every((num) => num < 10)
+console.log("this is lesser every ",lesser);
+
+let greatersome = arr.some((num) => num > 4)
+console.log( "this is greater some ",greatersome);
+
+let includes = [1,2,3,4,5,6]
+console.log(includes.includes(2));
+
+reverse = includes.reverse();
+console.log(reverse);
+
+let arrays1 = new Array(8); 
+console.log(arrays1);
+console.log(arrays1.fill(8));
+
+let farooqui = ["s","a","n","i","y","a"]
+console.log(farooqui.join(''));
+
+let reduce = [1,2,3,4,5,6]
+let reduces =reduce.reduce((total , current) => total+current)
+console.log(reduces);
+
+let find = [1,2,3,4,5,6,7,8,9,10]
+let found = find.find((element) => element > 4)
+console.log(found);
+
+
+
