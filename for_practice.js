@@ -125,3 +125,11 @@ switch (u) {
 }
 
     
+//nested for in multiple case scenarios
+let arrayblock = [["firstname"],["arbaz"],["lastname"],["khan"],["saniya"],["farooqui"]]
+
+for(let i = 0 ; i < arrayblock.length ; i++){
+    for(let j = 0 ; j < arrayblock[i].length ; j++){
+        console.log(arrayblock[i][j]);
+    }
+}

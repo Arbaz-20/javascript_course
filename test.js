@@ -57,3 +57,20 @@ function subtractonmethod (num1 ,num2,num3){
 let subtraction = subtractonmethod(90,80,2)
 console.log(subtraction);
 
+let b ="arbaz"
+let t  ="task"
+if(b=="arbaz" && t =="task"){
+    console.log("yes condition is met");
+}else{
+    console.log("no condition is met");
+}
+
+let name ="sofiya"
+if(name != "saniya"){
+    console.log("sofiya");
+}else{
+    console.log("saniya");
+}
+
+
+
