@@ -442,16 +442,40 @@ for(let response of sofiyaarray){
     console.log(sofiyaarray.indexOf(response) + ":"+ response );
 }
 
+let friend = [[1,2],[3,4],[5,6],[7,8],["saniya"],["sofiya"],["alfiya"]]
 
+for(let i = 0 ; i < friend.length ; i++){
+    for(let j = 0 ; j < friend[i].length ; j++){
+        console.log(friend[i][j]);
+    }
+}
+for(response of friend){
+    for(let i = 0 ; i < response.length ; i++){
+        console.log(response[i]);
+    }
+}
 
+let data = [{   firstname:"Arbaz",
+                lastname:"Khan"
+            },
+            {   firstname:"saniya",
+                lastname:"Khan"
+            },
+            {   firstname:"sufiya",
+                lastname:"Khan"
+            },
+            {   firstname:"Alfiya",
+                lastname:"Khan"
+            },
+            {   firstname:"Arbaz",
+                lastname:"Khan"
+            }]
 
-
-
-
-
-
-
-
+for(let response of data){
+    for(let data in response){
+        console.log(data = response[data]);
+    }
+}
 
 
 
