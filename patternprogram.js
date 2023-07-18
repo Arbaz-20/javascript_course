@@ -159,3 +159,6 @@ for (let i = 1; i <= o - 1; i++) {
   diamond += "\n";
 }
 console.log(diamond);
+
+
+
