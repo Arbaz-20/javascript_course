@@ -48,3 +48,53 @@ console.log(arbaz);
 console.log(arbaz.saniya);
 console.log(arbaz.alfiya);
 
+
+let Allkey = ["name","surname","age","qualification","gender","email"]
+let Allvalue =
+    [ 
+        [
+            ["Arbaz","Khan",21,"Graduation","Male","arbaz@gmail.com"],
+            ["Arbaz","Khan",21,"Graduation","Male","arbaz@gmail.com"],
+            ["Arbaz","Khan",21,"Graduation","Male","arbaz@gmail.com"],
+            ["Arbaz","Khan",21,"Graduation","Male","arbaz@gmail.com"],
+            ["Arbaz","Khan",21,"Graduation","Male","arbaz@gmail.com"],
+            ["Arbaz","Khan",21,"Graduation","Male","arbaz@gmail.com"]
+        ]
+    ]
+let allobject =[]
+let values = Allvalue.flat()        
+console.log("Ths is the value ",values);
+
+for(response of values){
+    let object ={}
+    for(i = 0 ; i<values.length ; i++){
+    object[`${Allkey[i]}`]= response[i]
+    }
+    allobject.push(object)
+}
+
+console.log(allobject);
+
+//nested array and object
+
+let object ={
+    name : "saniya",
+    surname : "farooqui",
+    age : 17,
+    myobj : [
+       { name : "alfiya", surname: "farooqui"},
+       {name :"sofiya" , surname: "farooqui" }
+    ]
+}
+let array =[]
+let x = ''
+
+for (let i in object.myobj) {
+   x +=  object.myobj[i].name ;
+  for (let j in object.myobj[i].surname) {
+    x += object.myobj[i].surname[j];
+  }
+  array.push(x)
+}
+
+console.log(array);
