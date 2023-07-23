@@ -81,4 +81,3 @@ console.log(saniyamap);
 let hash = new Map(Object.entries(saniya))
 console.log(hash);
 console.log(hash.size);
-
