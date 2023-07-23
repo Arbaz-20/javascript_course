@@ -175,3 +175,6 @@ console.log(defineobject);
 Object.preventExtensions(defineobject);
 defineobject.age = 22
 console.log(defineobject);
+
+
+
