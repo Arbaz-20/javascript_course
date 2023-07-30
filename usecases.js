@@ -137,3 +137,23 @@ MergeObject = (firstobject , secondobject ) => {
 }
 let call = MergeObject(object , anotherobject)
 console.log(call);
+
+
+let data = "name"
+let datavalue = "saniya"
+stringvalue = (key , value ) => {
+    if(key == "" && value == ""){
+        return "fill the string"
+    }else{
+        let object = {}
+        object[`${key}`] = value
+        return object
+    }
+}
+
+let strings = stringvalue(data,datavalue)
+console.log(strings);
+
+
+
+
